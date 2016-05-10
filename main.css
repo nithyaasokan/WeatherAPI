@@ -1,0 +1,87 @@
+
+body {
+    position: static;
+    display: inline-block;
+    margin: 3%;
+}
+
+#title {
+    position: static;
+    margin: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: courier, monospace;
+    font-size: 3.6vw;
+    color: #707070;
+}
+
+#subtitle {
+    position: static;
+    text-align: center;
+    font-family: courier, monospace;
+    font-size: 1vw;
+    color: #707070;
+}
+
+
+#newyork, #annarbor, #newdelhi, #london {
+    position: static;
+    display: inline-block;
+    height: 30%;
+    width: 22%;
+    margin: 3% 3% 3% 6%;
+    padding: 8%;
+    font-family: courier, monospace;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 3.1vw;
+}
+
+#newyork {
+        background-color: #80d4ea;
+}
+
+
+#annarbor {
+    background-color: #5FC;
+}
+
+
+#newdelhi {
+    background-color: #FFCCCC;
+}
+
+#london {
+    background-color: #FFCC99;
+}
+
+#clock, #clock2, #clock3, #clock4 {
+    display: inline-block;
+    width: 350px;
+    font-size: 2vw;
+}
+
+#newyorkWeather, #londonWeather, #anrWeather, #newdelhiWeather {
+    display: inline-block;
+    margin: 2%;
+    padding: 2%;
+}
+
+.nyweatherIcon, .lonweatherIcon, .anrweatherIcon, .newdelhiweatherIcon {
+    display: inline-block;
+    width: 20%;
+    padding-top: 4%;
+    vertical-align: middle;
+}
+
+.nytemperature, .lontemperature, .anrtemperature, .newdelhitemperature {
+    display: inline-block;
+    width: 50px;
+    font-size: 40px;
+    color: #ffff;
+    font-family: Courier;
+    text-align: center;
+    text-transform: uppercase;
+
+}
